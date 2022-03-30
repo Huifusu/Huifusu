@@ -1,37 +1,88 @@
-## Welcome to GitHub Pages
+### 1)查询歌曲信息
+`
+info <歌曲名称>
+`
 
-You can use the [editor on GitHub](https://github.com/Huifusu/Huifusu/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- 可使用别名，但部分别名可能未收录
+例:
+`
+info 福利自动射
+`
+- 多词英文可使用开头字母组合
+例:
+`
+info EC = info Eradication Catastrophe
+`
 
-### Markdown
+### 2)随机曲目
+`
+random all
+`
+**进行全曲随机*
+`  
+random [难度整数]
+`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### 3)rks定点计算
+`
+crks <谱面定数小数> <ACC值>
+`
 
-# Header 1
-## Header 2
-### Header 3
+### 4)rks据歌曲计算（未实装）
 
-- Bulleted
-- List
+`
+qrks <ACC值> <歌曲> [难度等级]
+`**不填写难度等级则默认IN等级*
+### 4)随机Tip
+全版本Tips：
 
-1. Numbered
-2. List
+`
+random tips
+`
 
-**Bold** and _Italic_ and `Code` text
+旧版Tip：
 
-[Link](url) and ![Image](src)
-```
+`
+random tipsold
+`
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+2.0版本Tip：
 
-### Jekyll Themes
+`
+random tips2
+`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Huifusu/Huifusu/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 5)查看谱面AUTO PLAY预览
+`
+chart <曲名>`
 
-### Support or Contact
+视频来自*光念*
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 6)向开发者反馈问题/提出建议
+`
+send <反馈内容>
+`**中间不可换行，可分多次发送*
+
+## 开发
+
+BOT开发者：
+> 桧尃遬
+1s
+Arissan
+
+开发框架：nonebot2
+go-cqhttp
+
+歌曲定数来源于：
+> ZAQWAXCD
+ACodinghusky
+
+感谢你们辛苦繁重的测算工作！
+
+AUTO PLAY视频链接来源于：
+> 光念
+
+特别感谢：
+> 奶茶sa↓ma↑
